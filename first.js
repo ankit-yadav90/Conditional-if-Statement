@@ -1,11 +1,24 @@
 //Conditinal Statement
 
-let age = 16;
+// let age = 16;
 
-if (age >= 18) {
-    console.log("you can vote");
+// if (age >= 18) {
+//     console.log("you can vote");
+// }
+
+// if (age < 18) {
+//     console.log("you canNot vote");
+// }
+
+let mode = "dark";
+let color;
+
+if (mode === "dark") {
+    color = "black";
 }
 
-if (age < 18) {
-    console.log("you canNot vote");
+if (mode === "light") {
+    color = "white";
 }
+
+console.log(color);
